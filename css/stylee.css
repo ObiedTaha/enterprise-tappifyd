@@ -1,0 +1,140 @@
+/* that remove all margin and padding and calc the box sizing from box */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: url('../images/pexels-rezk-assaf-10795564-600x305.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* but layer red with opacity as highlight between image and caption */
+.layer {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.5);
+    inset: 0;
+
+}
+
+nav {
+    top: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.toggle {
+    background-color: #65ef28 !important;
+}
+
+.enterpriseBtn {
+    background-color: #65ef28 !important;
+    border-radius: 0 10px 10px 0;
+    padding: 2px;
+}
+
+a {
+    color: black !important;
+    font-weight: 470;
+}
+
+.caption h2 {
+    font-size: 70px;
+    font-weight: 600;
+    padding: 40px;
+}
+
+.visaCard {
+    border-radius: 20px;
+    padding-bottom: 50px !important;
+    box-shadow: 1px 10px 18px #888888;
+}
+
+.idCard {
+    position: absolute;
+    bottom: 5%;
+    right: -14%;
+    /* anoter way to move the card with transform */
+    /* transform: translate(120%,-50%); */
+    /* z-index: 22; */
+    border-radius: 10px 0 0 10px;
+    font-family: "Exo 2", sans-serif;
+    box-shadow: 1px 10px 18px #888888;
+
+}
+
+.idCard h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.idCard h6 {
+    color: #f46065;
+    font-weight: 700;
+}
+
+.idCard p {
+    font-weight: 500;
+}
+
+.formulaBracelets {
+
+    background-image: url('../images/bracelets.avif');
+    border-radius: 12px;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.handBraceletes {
+    border-radius: 10px;
+    box-shadow: 1px 10px 18px #888888;
+
+}
+
+.woodenHand {
+    background-color: #fe0908;
+    border-radius: 10px;
+}
+
+.carousel {
+    border-radius: 20px;
+}
+
+.carousel img {
+    border-radius: 20px;
+}
+
+.contact .btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+footer{
+    background-color:#191919;
+}
+
+.about h5 {
+    color: #65ef28;
+}
+
+.about p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.Subscribe{
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.maharat p{
+    font-size: 10px;
+}
