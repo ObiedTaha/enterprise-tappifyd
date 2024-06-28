@@ -27,6 +27,7 @@
 
 }
 
+
 .navbar {
     position: fixed;
     top: 20px;
@@ -48,9 +49,6 @@
     color: #F25454 !important;
     font-weight: bold;
 }
-
-
-
 
 .toggle {
     background-color: #65ef28 !important;
@@ -164,7 +162,7 @@ footer {
     font-size: 10px;
 }
 
-@media  (max-width: 568px) {
+@media (min-width: 320px) and (max-width:568px) {
     #home .caption {
         width: 100%;
         display: flex;
@@ -172,7 +170,7 @@ footer {
     }
     #home .caption h2 {
         
-        font-size: 50px;
+        font-size: 40px;
         margin: auto;
 
     }
@@ -182,7 +180,7 @@ footer {
 
     }
 }
-@media (min-width: 569px) and (max-width:900px)  {
+@media (min-width: 569px) and (max-width:1000px)  {
 
     #home .caption {
         width: 100%;
