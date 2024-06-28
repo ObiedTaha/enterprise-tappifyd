@@ -15,11 +15,12 @@
 </head>
 
 <body>
-    the first section with 
-    <section class="home">
+    <!-- the first section with nav bar  -->
+    <section id="home" class="home">
+        <!-- that the layer that give red color  -->
         <div class="layer">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-white m-0 p-0 m-auto ">
+            <!-- nav bar with bootstrap -->
+            <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-white m-0 p-0 m-auto ">
                 <div class="container-fluid">
                     <div class="d-flex justify-content-between align-items-center ms-3">
                         <img src="./images/fb2ea234-9551-4c99-9f49-0673b112fae4.jfif" alt="" srcset="">
@@ -42,20 +43,20 @@
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
 
                             <li class="nav-item">
-                                <a class="nav-link text-muted " href="#">Home</a>
+                                <a class="nav-link text-muted active "  href="#home">Home</a>
                             </li>
 
                             <li class="nav-item text-muted">
-                                <a class="nav-link text-muted " href="#">Products</a>
+                                <a class="nav-link text-muted " aria-current="page" href="#">Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-muted" href="#">Technologies</a>
+                                <a class="nav-link text-muted" aria-current="page" href="#technologe">Technologies</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-muted" href="#">About</a>
+                                <a class="nav-link text-muted" aria-current="page" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-muted" href="#">Contacts</a>
+                                <a class="nav-link text-muted" aria-current="page" href="#contact">Contacts</a>
                             </li>
                         </ul>
                     </div>
@@ -83,10 +84,10 @@
                 </li>
             </nav>
 
-            <div class="caption h-75 d-flex align-items-center ">
+            <div class="caption h-75  ">
                 <div class="row">
+                    <!-- the caption at the section  -->
                     <div class="col-md-7">
-
                         <h2 class="text-white">The Ultimate Brand Experience For Formula1</h2>
                     </div>
                 </div>
@@ -94,19 +95,19 @@
         </div>
 
     </section>
-
-    <section class="about mt-5">
+    <!-- second section  -->
+    <section id="about" class="about mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div>
+                <div class="col-md-6 ">
+                    <div class="m-3">
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit
                             tempora repudiandae suscipit odio exercitationem quod molestiae culpa optio officia id,
                             consequuntur, facere rem saepe deserunt ea nulla beatae magnam aliquam autem aperiam debitis
                             velit dolores deleniti. Distinctio nemo reprehenderit ducimus obcaecati magni, molestias
                             asperiores repellendus.</p>
                     </div>
-                    <div>
+                    <div class="m-3">
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit
                             tempora repudiandae suscipit odio exercitationem quod molestiae culpa optio officia id,
                             consequuntur, facere rem saepe deserunt ea nulla beatae magnam aliquam autem aperiam debitis
@@ -119,7 +120,7 @@
         </div>
     </section>
 
-    <section class="container mt-5">
+    <section id="technologe" class="container mt-5">
         <h4>What We Did</h4>
 
         <div class="row">
@@ -163,7 +164,7 @@
 
     </section>
 
-    <section class="">
+    <section id="">
         <div class="container woodenHand bg-danger overflow-hidden">
             <div class="row ">
                 <div class="col-xl-6">
@@ -208,7 +209,7 @@
         </div>
     </section>
 
-    <section class="contact container my-5">
+    <section id="contact" class="contact container my-5">
         <h3>interested in working with us?</h3>
         <h3>Contact us Today</h3>
         <button class="btn btn-outline-dark my-4 fw-bold"> Get a Quote</button>
